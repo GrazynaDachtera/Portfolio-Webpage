@@ -1,0 +1,249 @@
+body {
+    background-image: url("https://www.monreaghulsterscotscentre.com/wp-content/uploads/2014/09/grey-background-v1.jpg");
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.logo {
+    font-family: Palatino, URW Palladio L, serif;
+    font-size: 30px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: #514F4F;
+    margin: 0 auto;
+    padding: 5px;
+    max-width: 400px;
+    position: relative;
+
+}
+
+.navigation-menu {
+    display: block;
+    font-size: 14px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 416px;
+    min-width: 416px;
+    text-align: center;
+    width: 40%;
+    float: top;
+    color: #514F4F;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.navigation-menu > li > a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navigation-menu > li {
+    float: left;
+}
+
+.navigation-menu:after {
+    content: '';
+    display: flex;
+    clear: both;
+}
+
+.navigation-menu > li:first-child {
+    height: 60px;
+    width: 15%;
+    display: block;
+    text-align: -webkit-match-parent;
+    color: #514F4F;
+    margin: 16px;
+    text-align: center;
+    float: top;
+
+}
+
+.navigation-menu > li:first-child + li {
+    height: 60px;
+    width: 15%;
+    display: block;
+    text-align: -webkit-match-parent;
+    color: #514F4F;
+    text-align: center;
+    margin: 16px;
+    float: top;
+}
+
+.navigation-menu > li:first-child + li + li {
+    height: 60px;
+    width: 15%;
+    display: block;
+    text-align: -webkit-match-parent;
+    color: #514F4F;
+    text-align: center;
+    margin: 16px;
+    float: top;
+}
+
+.navigation-menu > li:first-child + li + li + li {
+    height: 60px;
+    width: 15%;
+    display: block;
+    text-align: -webkit-match-parent;
+    color: #514F4F;
+    text-align: center;
+    margin: 16px;
+    float: top;
+}
+
+.About-me-container {
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    font-family: Palatino, URW Palladio L, serif;
+    font-size: 20px;
+    color: #514F4F;
+    margin: 0 auto;
+    display: flex;
+    max-width: 900px;
+    background-color: rgba(255,255,255, 0.19);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.selfie {
+    margin: 10px;
+    padding: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 30px;
+}
+
+.Projects {
+    font-family: Palatino, URW Palladio L, serif;
+    font-size: 30px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    color: #514F4F;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 10px;
+}
+
+.project-title h3 {
+    font-family: Palatino, URW Palladio L, serif;
+    font-size: 20px;
+    display: inline;
+    color: #514F4F;
+    margin: 0 auto;
+    max-width: 900px;
+    cursor: pointer;
+    padding: 2px;
+}
+summary {
+    padding: 10px;
+    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: left;
+}
+
+details {
+    cursor: pointer;
+}
+.project-image {
+    display: flex;
+    margin: 0 auto;
+    overflow: clip;
+    cursor: pointer;
+    position: relative;
+    max-width: 200px;
+    padding: 0;
+    right: 350px;
+}
+
+.project-description {
+    font-family: Palatino, URW Palladio L, serif;
+    font-size: 16px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    color: #514F4F;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 10px;
+}
+
+.Skills {
+    font-family: Palatino, URW Palladio L, serif;
+    font-size: 30px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    color: #514F4F;
+    margin: 0 auto;
+    max-width: 900px;
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.Footer {
+    font-family: Palatino, URW Palladio L, serif;
+    font-size: 14px;
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: #514F4F;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 5px;
+}
+
+.skills-container {
+    margin: 0 auto;
+    max-width: 900px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.Contact {
+    font-family: Palatino, URW Palladio L, serif;
+    font-size: 30px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    color: #514F4F;
+    margin: 0 auto;
+    max-width: 900px;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+.contact-container {
+    font-family: Palatino, URW Palladio L, serif;
+    font-size: 14px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    color: #514F4F;
+    margin: 0 auto;
+    max-width: 900px;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
